@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="typeface">
+        <flag name="opensans_regular" value="1" />
+        <flag name="opensans_regular_italic" value="2" />
+        <flag name="opensans_light" value="3" />
+        <flag name="opensans_light_italic" value="4" />
+        <flag name="opensans_semibold" value="5" />
+        <flag name="opensans_semibold_italic" value="6" />
+    </attr>
+
+    <declare-styleable name="TextView">
+        <attr name="typeface" />
+    </declare-styleable>
+
+    <declare-styleable name="Checkbox">
+        <attr name="typeface" />
+    </declare-styleable>
+
+</resources>
